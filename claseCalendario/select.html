@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-<Head>
+  <Head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Etiqueta select">
     <meta name="robots" content="index,follow">
     <title>select</title>
-</Head>
-<Body>
+  </Head>
+ <Body>
     <main>
+        <!-- aqui podemos observar la primera forma del boton de select, no es la mejor, ni la mas rapida, pero es una forma que se usaba
+            manda en la pantalla todas las opciones en las cuales puedes escoger, pero es incomodo al momento de tener muchas opciones
         <select name="cursos" id="">
             <option value="Javascript">Javascript</option>
             <option value="HTML5">HTML5</option>
             <option value="CSS3">CSS3</option>
             <option value="Web standards">Web standards</option>
-            <input type="submit">
-        </select>
-        
+        </select>  -->
+
+        <input list="cursos">
+         <datalist id="cursos">
+            <option value="Javascript">Javascript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web standards">Web standards</option>
+        </datalist>
+        <!-- Aqui podemos ver una mejor aplicacion de la etiqueta select, ya que nos deja escribir la opcion que queremos y dando como apoyo las
+        que existen dentro de la pagina, haciendo que las opciones se reduzcan desde un inicio y generarle buena experiencia al usuario -->
+
     </main>
-</Body>
+ </Body>
 </html>
