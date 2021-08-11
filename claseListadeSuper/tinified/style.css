@@ -1,0 +1,35 @@
+body {
+background-color: black;
+color: #28DE00;
+
+}
+
+a{
+    color: #28DE00;   
+}
+
+#frutas {
+width: 30%;
+padding: 0em;
+border: 2px solid #ddd;
+border-color: #28DE00;
+
+}
+
+#carne{
+    width: 30%;
+    padding: 0em;
+    border: 2px solid #ddd;
+    border-color: #28DE00;
+    margin: 5em;
+    vertical-align: middle;
+}
+
+#verdura{
+    width: 30%;
+    padding: 0em;
+    border: 2px solid #ddd;
+    border-color: #28DE00;
+    margin: 0em;
+
+}
