@@ -1,0 +1,20 @@
+p{
+    color: blue;
+    padding: 5em;
+    font-size: 30px;
+}
+
+/* class */
+
+.parrafo {
+    color: red;
+}
+
+/* ID */
+
+#texto {
+
+    color: yellow;
+    font-size: 24px;
+    padding: 2em;
+}
